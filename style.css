@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.card{
+    width: 800px;
+    min-height: 400px;
+    position: relative;
+    margin: auto;
+     margin-top: 15vh;
+   
+}
+
+.leftside{
+    width: 40%;
+    height: 100%;
+   background-color: #704e5a;
+    border-radius: 0% 50% 50% 0%;
+    position: absolute;
+    z-index: 2;
+}
+.leftside>img{
+              height: 330px;
+              width: 330px;
+              left: -30px;
+              position: relative;
+
+
+}
+
+.arrow{
+    text-align: center;
+    margin-top: 10px;
+
+    color: beige;
+}
+.arrow i:hover{
+               color: black;
+            
+}
+.rightside{
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    left:  16%;
+    top: 0%;
+   background-color: #E8EAF0;
+    border-radius: 0 20px 20px 0;
+    z-index: 1;
+}
+
+.h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    padding-left: 250px;
+    padding-top: 15px;
+    color: black;
+}
+
+.icons {
+    color: rgb(70, 70, 115);
+    font-size: 30px;
+    margin-left: 360px
+}
+.icons i:hover{
+            color: rgb(151, 86, 142);
+}
+
+.h2{
+    margin-left:190px ;
+    font-size: large;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 25px;
+    color: black;
+}
+
+.men{
+    margin-left: 200px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+    font-size: larger;
+    color: black;
+}
+.money{
+    margin-left: 235px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+}
+.size{
+    margin-left :235px ;
+    padding-top: 5px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+
+.size:hover {
+     color: rgb(151, 86, 142);
+}
+
+
+.color {
+    margin-left: 235px;
+    padding-top: 10px;
+    color: black;
+}
+
+.green,
+.yellow,
+.blue {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 9px 0 0;
+    vertical-align: top;
+    padding: 0;
+}
+
+.green {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: turquoise;
+}
+.green:hover {
+    background-color: red;
+    border: 3px solid black;
+}
+
+.yellow:hover {
+    background-color: yellow;
+    border: 3px solid black;
+}
+
+.blue:hover {
+    background-color: turquoise;
+    border: 3px solid black;
+}
+
+
+.option {
+    margin-left: 235px;
+    padding-top: 10px;
+    color: black;
+}
+
+
+.cart:hover {
+    color: rgb(151, 86, 142);
+}
+
+.buy:hover {
+    color: rgb(151, 86, 142);
+
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkSxbCK1Ci1zZo_1UDrvEnWkq1qdP4G41ooDKQEApiOw&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .leftside {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .rightside {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 20px;
+    }
+}
+
+
+
